@@ -2,3 +2,4 @@ streamlit>=1.31.0
 plotly
 altair
 millify
+streamlit_extras
