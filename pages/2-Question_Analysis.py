@@ -24,7 +24,7 @@ def app():
     # Main page content
     #st.set_page_config(page_title = 'AIC Dashboard -- Section Analysis', page_icon='🇺🇬',layout='wide')
 
-    title = f'Distribution of Response of Question Within {password}'
+    title = f'Question Analysis -- {password}'
     col1, col2, col3 = st.columns([4, 1, 5])
 
     with col1:
