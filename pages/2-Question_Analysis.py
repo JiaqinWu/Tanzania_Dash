@@ -139,7 +139,7 @@ def app():
                     color=alt.Color('Response', sort=['Strongly Agree', 'Agree', 'Somewhat Agree', 'Somewhat Disagree', 'Disagree', 'Strongly Disagree']),
                     tooltip=['Response', 'Count']
                 ).properties(
-                    width=1000,
+                    width=800,
                     height=600,
                     title=f'{password} -- Bar Plot of Distrbution of Response of Q{qn} within {module_selected}'
                 )
