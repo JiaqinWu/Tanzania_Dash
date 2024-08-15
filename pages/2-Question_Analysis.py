@@ -153,7 +153,7 @@ def app():
                 )
 
                 final_chart = alt.layer(chart, text).configure_axis(
-                    labelFontSize=14,
+                    labelFontSize=10,
                     titleFontSize=14
                 )
 
