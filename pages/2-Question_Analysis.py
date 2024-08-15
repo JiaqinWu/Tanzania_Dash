@@ -168,7 +168,7 @@ def app():
                 base = alt.Chart(filtered_data).encode(
                     theta=alt.Theta('Count', stack=True),
                     color=alt.Color('Response', sort=response_order),
-                    order=alt.Order('order', sort='descending'), 
+                    order=alt.Order('order', sort='ascending'), 
                     tooltip=['Response', 'Count']
                 )
 
